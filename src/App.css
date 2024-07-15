@@ -1,0 +1,203 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: white; 
+  color: #000000;
+}
+
+#root {
+  width: 1519px;
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.top-bar {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border-color: black;
+  background: rgb(253, 253, 253);
+  box-shadow: #000;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.search-bar {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.search-bar input {
+  width: 50%;
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  background: rgb(188, 188, 188);
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.login-btn,
+.signup-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: linear-gradient(100.52deg, #fd913c, #ffcfaa);
+  color: #ffffff;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.login-btn:hover,
+.signup-btn:hover {
+  background-color: #ffc8dd;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 20px;
+  width: 1200px;
+  background: linear-gradient(90.07deg, #fff7e6, #ffcfaa 0.01%, #fff7e6 27.01%);
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px; /* Limit maximum width */
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-name-badge {
+  display: flex;
+  align-items: center;
+}
+
+.badge-image {
+  width: 100px;
+  height: 100px;
+}
+
+.profile-stats {
+  margin-top: 10px;
+}
+
+.streak-and-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.streak-counter {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.streak-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+}
+
+.congratulations {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.create-post {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.create-post-btn {
+  background: linear-gradient(100.52deg, #fd913c, #ffcfaa);
+  display: flex;
+  font-size: 14px;
+  color: #000;
+  font-family: "Alegreya SC";
+}
+
+.create-post-btn:hover {
+  background-color: #ffc8dd;
+}
+
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.post-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(161, 157, 157, 0.1);
+  width: calc(33.333% - 20px);
+}
+
+.post-image {
+  width: 100%;
+  height: auto;
+}
+
+.post-description {
+  padding: 10px;
+  font-size: 1rem;
+  color: #000000;
+}
