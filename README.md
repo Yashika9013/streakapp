@@ -1,7 +1,7 @@
 ## MYNTRA SUBMISSION
-# Streak App
+# Style star App
 
-Streak App is a modern, Gen Z-themed social platform that allows users to share their daily posts, track their streaks, and engage with a community. The primary color theme is pink, with a focus on creating a visually appealing and user-friendly experience.
+Style star App is a modern, Gen Z-themed social platform that allows users to share their daily posts, track their streaks, and engage with a community. The primary color theme is pink, with a focus on creating a visually appealing and user-friendly experience.
 
 ## Table of Contents
 
