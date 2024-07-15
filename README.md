@@ -21,7 +21,6 @@
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Folder Structure](#folder-structure)
 - [Technologies Used](#technologies-used)
 - [License](#license)
 
@@ -58,29 +57,7 @@ Sign up for a new account or log in with an existing account.
 Update your profile information.
 Create new posts with text and images.
 Track your posting streak and view other users' posts.
-### Folder Structure
-java
-Copy code
-streak-app/
-├── public/
-│   ├── images/
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   ├── PostForm.jsx
-│   │   ├── PostList.jsx
-│   │   ├── StreakCounter.jsx
-│   │   └── ...
-│   ├── assets/
-│   │   └── badge.png
-│   ├── App.css
-│   ├── App.jsx
-│   ├── index.css
-│   └── index.jsx
-├── .gitignore
-├── package.json
-├── README.md
-└── ...
+
 ### Technologies Used
 React.js
 Vite (for fast builds and hot module replacement)
