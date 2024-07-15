@@ -1,8 +1,19 @@
-## MYNTRA SUBMISSION
+## Myntra HackerRamp: WeForShe 2024 SUBMISSION
 # Style star App
 
-Style star App is a modern, Gen Z-themed social platform that allows users to share their daily posts, track their streaks, and engage with a community. The primary color theme is pink, with a focus on creating a visually appealing and user-friendly experience.
+ #🎉 Welcome to our New Profile Experience! 🎉
 
+-Hey everyone! We’re thrilled to introduce our latest profile upgrade designed to make your experience more interactive and fun.
+
+-Show off all your earned badges! From first purchases to fashion challenges, your profile now proudly displays every achievement.
+
+-🔥 Streak Sensation: Track your style streaks! See how many consecutive days you’ve been active. Keep it going to watch your streak number soar.
+
+-📸 Fashion Snapshots: Share your latest looks! Post pictures directly from your profile—showcasing your daily Myntra purchases keeps your streak alive.
+
+-✨ Exclusive Myntra Perks: Only Myntra items count. Keep shopping and posting to boost your streak count.
+
+-🏆 Challenge Yourself: Take on fashion challenges, earn badges, and set new style goals.
 ## Table of Contents
 
 - [Features](#features)
@@ -12,7 +23,6 @@ Style star App is a modern, Gen Z-themed social platform that allows users to sh
 - [Usage](#usage)
 - [Folder Structure](#folder-structure)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -38,7 +48,45 @@ Ensure you have the following software installed:
 ### Installation
 
 1. Clone the repository:
-
-```bash
 git clone https://github.com/yashika09/streak-app.git
 cd streak-app
+The app will be available at http://localhost:3000.
+
+### Usage
+Open the app in your web browser.
+Sign up for a new account or log in with an existing account.
+Update your profile information.
+Create new posts with text and images.
+Track your posting streak and view other users' posts.
+### Folder Structure
+java
+Copy code
+streak-app/
+├── public/
+│   ├── images/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── PostForm.jsx
+│   │   ├── PostList.jsx
+│   │   ├── StreakCounter.jsx
+│   │   └── ...
+│   ├── assets/
+│   │   └── badge.png
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   └── index.jsx
+├── .gitignore
+├── package.json
+├── README.md
+└── ...
+### Technologies Used
+React.js
+Vite (for fast builds and hot module replacement)
+CSS (with a focus on responsive design and modern aesthetics)
+
+
+### License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
